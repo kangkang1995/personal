@@ -179,6 +179,7 @@ img{
 .zouxin{
 	width: 100%
 	height:100%;
+	overflow: hidden;
 	background: #475056;
 }
 .zouxin-box{
@@ -344,7 +345,8 @@ img{
 }
 .tab-xiangmu{
 	float: left;
-	width: 600px;
+	width: 30%;
+	margin-left: 15px;
 }
 .tab-xiangmu>ul{
 	padding-top: 30px;
@@ -430,6 +432,7 @@ img{
 .youshi{
 	width: 100%;
 	height: 680px;
+	overflow: hidden;
 	background-image: url(../images/1.png);
 }
 .youshi-box{
@@ -455,6 +458,7 @@ img{
 .youshi-content{
 	height: 390px;
 	width: 1200px;
+	margin: 0 auto;
 	margin-top:50px;
 	-ms-transform:rotateX(10deg); /* IE 9 */
 	-webkit-transform:rotateX(10deg); /* Safari and Chrome */
