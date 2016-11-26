@@ -17,7 +17,7 @@ var SmoothScroll = function (win, opt) {
     this.win = win;
     this.timeStamp = new Date().getTime();
     //每次滚动位移
-    this.step = opt ? opt.step || 400 : 400;
+    this.step = opt ? opt.step || 600 : 600;
     //缓动系数
     this.f = opt ? opt.f || 0.06 : 0.06;
     this.interval = 10;
@@ -272,7 +272,7 @@ function setTimeDown(){
 		        });
 		     }
 		}
-	},8000);
+	},14000);
 }
 
 function clearTimeDown(){
